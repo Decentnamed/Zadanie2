@@ -304,7 +304,28 @@ namespace Zadanie2
                     BuforIO = Convert.ToString(wynik);
                     flagaWyniku = true;
                 }
-                
+                if (buforPoprzedniegoOperatora == "-")
+                {
+                    wynik = Convert.ToDouble(BuforLiczbyPierwszej) + liczbaDruga;
+                    BuforLiczbyDrugiej = Convert.ToString(liczbaDruga);
+                    BuforIO = Convert.ToString(wynik);
+                    flagaWyniku = true;
+                }
+                if (buforPoprzedniegoOperatora == "×")
+                {
+                    wynik = Convert.ToDouble(BuforLiczbyPierwszej) + liczbaDruga;
+                    BuforLiczbyDrugiej = Convert.ToString(liczbaDruga);
+                    BuforIO = Convert.ToString(wynik);
+                    flagaWyniku = true;
+                }
+                if (buforPoprzedniegoOperatora == "÷")
+                {
+                    wynik = Convert.ToDouble(BuforLiczbyPierwszej) + liczbaDruga;
+                    BuforLiczbyDrugiej = Convert.ToString(liczbaDruga);
+                    BuforIO = Convert.ToString(wynik);
+                    flagaWyniku = true;
+                }
+
             }
         }
 
